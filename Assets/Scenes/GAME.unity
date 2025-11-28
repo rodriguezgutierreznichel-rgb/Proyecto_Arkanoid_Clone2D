@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -266,6 +270,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -391,11 +399,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+--- !u!1 &384727512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 842761873768236619, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+  m_PrefabInstance: {fileID: 2525099582344992239}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &393564150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -632,6 +649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 13
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -830,6 +851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 12
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -898,6 +923,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -970,7 +999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_TagString
-      value: Obstaculo duro
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1051,6 +1080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1122,7 +1155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_TagString
-      value: Obstaculo duro
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1198,6 +1231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1269,7 +1306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_TagString
-      value: Obstaculo duro
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1345,6 +1382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1413,6 +1454,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1543,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_TagString
-      value: Obstaculo duro
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1560,6 +1605,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
   m_PrefabInstance: {fileID: 55328938}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1634047544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634047546}
+  - component: {fileID: 1634047545}
+  m_Layer: 0
+  m_Name: GAME MANAGER
+  m_TagString: Jugador
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1634047545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634047544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a12880673f5af6448970c5208730dd0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1634047546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634047544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 207.34364, y: 114.36112, z: -1.4148414}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1737735779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1624,11 +1713,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 11
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+--- !u!1 &1754586217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8554138720027485066, guid: b76468696b2d69d4da5e460f907b4a3e, type: 3}
+  m_PrefabInstance: {fileID: 5450713905478698344}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1819240100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1692,6 +1790,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1761,6 +1863,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1838,7 +1944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_TagString
-      value: Obstaculo duro
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1908,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_Name
       value: OBSTACULO 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1992,6 +2102,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 384727512}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: efecto
+      value: 
+      objectReference: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1754586217}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: livesObs
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2008,6 +2134,10 @@ PrefabInstance:
     - target: {fileID: 4581054811649146803, guid: 521cc46da78fcbb4dbf84de8cb4e6df2, type: 3}
       propertyPath: m_Name
       value: SUELO
+      objectReference: {fileID: 0}
+    - target: {fileID: 4581054811649146803, guid: 521cc46da78fcbb4dbf84de8cb4e6df2, type: 3}
+      propertyPath: m_TagString
+      value: DeadZone
       objectReference: {fileID: 0}
     - target: {fileID: 6870395579110376450, guid: 521cc46da78fcbb4dbf84de8cb4e6df2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2293,6 +2423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OBSTACULO 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
+      propertyPath: m_TagString
+      value: Obstaculo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2364,3 +2498,4 @@ SceneRoots:
   - {fileID: 680633349}
   - {fileID: 1400359956}
   - {fileID: 93751824}
+  - {fileID: 1634047546}

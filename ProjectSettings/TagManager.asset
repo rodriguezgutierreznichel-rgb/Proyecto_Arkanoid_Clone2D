@@ -7,7 +7,10 @@ TagManager:
   - Jugador
   - Pelota
   - Obstaculo
+  - Obstaculo poco duro
+  - Obstaculo algo duro
   - Obstaculo duro
+  - DeadZone
   layers:
   - Default
   - TransparentFX

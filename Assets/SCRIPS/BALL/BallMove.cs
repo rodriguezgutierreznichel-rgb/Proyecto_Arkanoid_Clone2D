@@ -1,19 +1,27 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallMove : MonoBehaviour
 {
+    public GameObject player, ball, efecto;
+
     public Rigidbody2D fisicaPelota;
 
     public float velocidadPelota = 800;
 
-    public float lives = 2;
-
     private Vector2 directionPelota;
 
-
+    public float lives = 3;
+    public float livesObs = 4;
+    public float numeroDeObstaculosDestruidos = 0;
+    Vector2 startPositionBall;
+    Vector2 startPositionPlayer;
 
     void Start()
     {
+        startPositionBall = ball.transform.position;
+        startPositionPlayer = player.transform.position;
+
         directionPelota.x = Random.Range(-1f, 1f);
 
         directionPelota.y = 1;
@@ -30,18 +38,39 @@ public class BallMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        if (collision.gameObject.CompareTag("DeadZone"))
+        {
+            lives--;
+
+            if (lives <= 2)
+            {
+                ball.transform.position = startPositionBall;
+                player.transform.position = startPositionPlayer;
+            }
+            if (lives <= 0)
+            {
+                SceneManager.LoadScene("UI_DERROTA");
+            }
+        }
+
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("Obstaculo duro"))
-        {
-            lives--;
-            if (lives == 0)
+            Instantiate(efecto, collision.transform.position, Quaternion.identity);
+            numeroDeObstaculosDestruidos++;
+
+            if (numeroDeObstaculosDestruidos >= 20)
             {
-                Destroy(collision.gameObject);
-                lives = 2;
+                SceneManager.LoadScene("UI_VICTORIA");
             }
         }
+
+        
+        
+
+
+
+
     }
 }

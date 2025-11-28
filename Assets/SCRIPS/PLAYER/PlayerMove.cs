@@ -10,10 +10,12 @@ public class PlayerMove : MonoBehaviour
 
     private Vector2 directionPlayer; //Direccion que se movera el objeto.
 
+    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+      
     }
 
     // Update is called once per frame
@@ -36,4 +38,5 @@ public class PlayerMove : MonoBehaviour
 
         fisicaPlayer.AddForce(directionPlayer * velocidadPlayer * Time.deltaTime * 100); //Ejerce la fuerza para mover el objeto.
     }
+    
 }

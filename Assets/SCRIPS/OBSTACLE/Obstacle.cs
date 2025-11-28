@@ -17,7 +17,7 @@ public class Obstacle : MonoBehaviour
        
     }
 
-
    
+
 
 }
