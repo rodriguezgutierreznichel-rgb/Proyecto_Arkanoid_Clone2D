@@ -6,7 +6,7 @@ public class BallMove : MonoBehaviour
 
     public float velocidadPelota = 800;
 
-
+    public float lives = 2;
 
     private Vector2 directionPelota;
 
@@ -25,5 +25,23 @@ public class BallMove : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstaculo"))
+        {
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Obstaculo duro"))
+        {
+            lives--;
+            if (lives == 0)
+            {
+                Destroy(collision.gameObject);
+                lives = 2;
+            }
+        }
     }
 }
