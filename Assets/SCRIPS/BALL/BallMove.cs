@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class BallMove : MonoBehaviour
 {
-    public GameObject player, ball, efecto;
+    public GameObject player, ball;
 
     public Rigidbody2D fisicaPelota;
 
@@ -27,6 +27,7 @@ public class BallMove : MonoBehaviour
         directionPelota.y = 1;
 
         fisicaPelota.AddForce(directionPelota * velocidadPelota);
+        
     }
 
     // Update is called once per frame
@@ -57,7 +58,7 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             Destroy(collision.gameObject);
-            Instantiate(efecto, collision.transform.position, Quaternion.identity);
+            
             numeroDeObstaculosDestruidos++;
 
             if (numeroDeObstaculosDestruidos >= 20)

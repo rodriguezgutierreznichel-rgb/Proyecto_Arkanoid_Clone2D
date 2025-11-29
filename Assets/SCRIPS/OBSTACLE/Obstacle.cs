@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Obstacle : MonoBehaviour
 {
-    public float lives = 2;
 
+   
+    public GameObject efecto;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,7 +19,17 @@ public class Obstacle : MonoBehaviour
        
     }
 
-   
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+
+        if (collision.gameObject.CompareTag("Pelota"))
+        {
+            
+        }
+
+
+    }
 
 
 }
