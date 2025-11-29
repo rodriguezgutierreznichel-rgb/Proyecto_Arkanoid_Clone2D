@@ -19,4 +19,8 @@ public class BotonDerrota : MonoBehaviour
     {
         SceneManager.LoadScene("GAME");
     }
+    public void SalirDelJuego()
+    {
+        SceneManager.LoadScene("UI_INICIO");
+    }
 }

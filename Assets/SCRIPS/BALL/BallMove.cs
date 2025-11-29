@@ -1,9 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using TMPro;
 public class BallMove : MonoBehaviour
 {
-    public GameObject player, ball;
+    public TextMeshProUGUI numeroDeVidas;
+
+    public GameObject player, ball, corazones;
+
+
+    [SerializeField] public LeanTweenType curva;
+    public float velocidadDeAnimacion = 0;
+    public Vector2 escalaCorazon = new Vector2(0, 0);
+
+    public float time = 0;
+    [SerializeField] TextMeshProUGUI tiempo;
 
     public Rigidbody2D fisicaPelota;
 
@@ -13,12 +23,17 @@ public class BallMove : MonoBehaviour
 
     public float lives = 3;
     public float livesObs = 4;
+   
     public float numeroDeObstaculosDestruidos = 0;
     Vector2 startPositionBall;
     Vector2 startPositionPlayer;
 
     void Start()
     {
+        numeroDeVidas.text = lives.ToString();
+
+        
+
         startPositionBall = ball.transform.position;
         startPositionPlayer = player.transform.position;
 
@@ -33,7 +48,8 @@ public class BallMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        time = time + Time.deltaTime;
+        tiempo.text = time.ToString("00");
     }
 
 
@@ -43,15 +59,23 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             lives--;
-
-            if (lives <= 2)
+            numeroDeVidas.text = lives.ToString();
+            LeanTween.scale(corazones, escalaCorazon, velocidadDeAnimacion).setEase(curva).setOnComplete(() =>
             {
+                LeanTween.scale(corazones, Vector3.one, velocidadDeAnimacion)
+                    .setEase(curva);
+            });
+
+           
+           
                 ball.transform.position = startPositionBall;
                 player.transform.position = startPositionPlayer;
-            }
+            
             if (lives <= 0)
             {
                 SceneManager.LoadScene("UI_DERROTA");
+                numeroDeVidas.gameObject.SetActive(false);
+                corazones.SetActive(false);
             }
         }
 
@@ -64,6 +88,8 @@ public class BallMove : MonoBehaviour
             if (numeroDeObstaculosDestruidos >= 20)
             {
                 SceneManager.LoadScene("UI_VICTORIA");
+                numeroDeVidas.gameObject.SetActive(false);
+                corazones.SetActive(false);
             }
         }
 
