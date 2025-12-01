@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5e08a7cf8575cc04f90a09d50ece9f29
+guid: ffed996253ab88b419cde18f87ccc748
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -230403885908812304
-    second: BOTON VICTORIA_0
+      213: -949547759834729213
+    second: ChatGPT Image 1 dic 2025, 18_09_04_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTON VICTORIA_0
+      name: ChatGPT Image 1 dic 2025, 18_09_04_0
       rect:
         serializedVersion: 2
-        x: 136
-        y: 128
-        width: 752
-        height: 771
+        x: 11
+        y: 0
+        width: 1494
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fd1981f2e07dccf0800000000000000
-      internalID: -230403885908812304
+      spriteID: 30578c5e75782d2f0800000000000000
+      internalID: -949547759834729213
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BOTON VICTORIA_0: -230403885908812304
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
