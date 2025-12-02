@@ -11,8 +11,10 @@ public class BallMove : MonoBehaviour
     [SerializeField] public LeanTweenType curva;
     public float velocidadDeAnimacion = 0;
     public Vector2 escalaCorazon = new Vector2(0, 0);
+    public Vector2 escalaNumeroDeVidas = new Vector2(2.5f, 2.5f);
+    public Vector2 escalaOriginalNumeroDeVidas = new Vector2(3, 3);
 
-    
+
 
     public Rigidbody2D fisicaPelota;
 
@@ -27,6 +29,8 @@ public class BallMove : MonoBehaviour
     Vector2 startPositionBall;
     Vector2 startPositionPlayer;
 
+   
+
     void Start()
     {
         numeroDeVidas.text = lives.ToString();
@@ -37,6 +41,9 @@ public class BallMove : MonoBehaviour
 
         startPositionBall = ball.transform.position;
         startPositionPlayer = player.transform.position;
+
+       
+        
 
         directionPelota.x = Random.Range(-1f, 1f);
 
@@ -59,8 +66,20 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             lives--;
+
             numeroDeVidas.text = lives.ToString();
+
+            LeanTween.scale(numeroDeVidas.rectTransform, escalaNumeroDeVidas, velocidadDeAnimacion).setEase(curva).setOnComplete(() =>
+            {
+                LeanTween.scale(numeroDeVidas.rectTransform, escalaOriginalNumeroDeVidas, velocidadDeAnimacion)
+                    .setEase(curva);
+            });
+
+
            
+
+            
+
 
             if (lives <= 2)
             {
@@ -96,6 +115,8 @@ public class BallMove : MonoBehaviour
                 corazones.SetActive(false);
                 corazonMedio.SetActive(false);
                 corazonNegro.SetActive(false);
+
+                
             }
         }
 
@@ -107,6 +128,7 @@ public class BallMove : MonoBehaviour
 
             if (numeroDeObstaculosDestruidos >= 20)
             {
+
                 SceneManager.LoadScene("UI_VICTORIA");
                 numeroDeVidas.gameObject.SetActive(false);
                     corazones.SetActive(false);

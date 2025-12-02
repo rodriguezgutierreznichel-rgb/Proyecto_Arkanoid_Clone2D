@@ -373,15 +373,15 @@ RectTransform:
   m_GameObject: {fileID: 107342019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 2}
+  m_LocalScale: {x: 0, y: 0, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 370082313}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -243.252, y: 44.1}
-  m_SizeDelta: {x: 64.902, y: 50}
+  m_AnchoredPosition: {x: -308.0609, y: 44.100006}
+  m_SizeDelta: {x: 21.696, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107342021
 MonoBehaviour:
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -43.20589, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 419138379}
   - component: {fileID: 419138378}
   m_Layer: 5
-  m_Name: Corazones del player
+  m_Name: Corazones negro del player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 452331966}
   - component: {fileID: 452331965}
   m_Layer: 5
-  m_Name: Corazones del player
+  m_Name: Corazon mitad del player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1269,7 +1269,7 @@ GameObject:
   - component: {fileID: 642678856}
   - component: {fileID: 642678855}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TEXT TIME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1284,15 +1284,15 @@ RectTransform:
   m_GameObject: {fileID: 642678853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1786829384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 399, y: 44}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 230.378, y: 66.095}
+  m_SizeDelta: {x: 43.007, y: 35.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642678855
 MonoBehaviour:
@@ -1424,6 +1424,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1786829384}
+  - {fileID: 2002990774}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &659944270
@@ -2873,7 +2874,7 @@ RectTransform:
   m_GameObject: {fileID: 1680925008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662272461}
@@ -3051,7 +3052,7 @@ GameObject:
   - component: {fileID: 1786829386}
   - component: {fileID: 1786829385}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: TIEMPO
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3346,6 +3347,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efecto: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9, type: 3}
+--- !u!1 &2002990772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002990774}
+  - component: {fileID: 2002990773}
+  m_Layer: 0
+  m_Name: ANIMACIONES
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2002990773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002990772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3659c82e28ba56a458ef569bc6c1e1f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador: {fileID: 642678855}
+  numeroDeVidas: {fileID: 107342021}
+  corazon: {fileID: 1680925008}
+  curva: 24
+  velocidadDeAnimacion: 1
+  newPositionContador: {x: 3, y: 3}
+  newPositionNumeroDeVidas: {x: 3, y: 3}
+  newPositionCorazon: {x: 1, y: 1}
+--- !u!4 &2002990774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002990772}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -382.32217, y: -15.899306, z: -0.6529377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 659944269}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2014869358
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,6 +3799,22 @@ PrefabInstance:
     - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
       propertyPath: velocidadDeAnimacion
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: escalaNumeroDeVidas.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: escalaNumeroDeVidas.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: escalaOriginalNumeroDeVidas.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: escalaOriginalNumeroDeVidas.y
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

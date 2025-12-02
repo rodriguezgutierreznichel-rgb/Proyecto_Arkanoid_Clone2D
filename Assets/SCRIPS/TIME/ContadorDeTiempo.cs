@@ -5,6 +5,7 @@ public class ContadorDeTiempo : MonoBehaviour
     public float time = 0;
     [SerializeField] TextMeshProUGUI tiempo;
 
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,4 +19,5 @@ public class ContadorDeTiempo : MonoBehaviour
         time = time + Time.deltaTime;
         tiempo.text = time.ToString("00");
     }
+    
 }
