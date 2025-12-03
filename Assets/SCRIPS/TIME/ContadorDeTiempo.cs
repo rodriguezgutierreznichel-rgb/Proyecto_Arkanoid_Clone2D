@@ -20,4 +20,5 @@ public class ContadorDeTiempo : MonoBehaviour
         tiempo.text = time.ToString("00");
     }
     
+
 }

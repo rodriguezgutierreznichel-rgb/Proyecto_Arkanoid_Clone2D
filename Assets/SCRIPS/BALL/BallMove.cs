@@ -7,6 +7,10 @@ public class BallMove : MonoBehaviour
 
     public GameObject player, ball, corazones, corazonMedio, corazonNegro;
 
+    public float vidasOBS = 1;
+    
+
+
 
     [SerializeField] public LeanTweenType curva;
     public float velocidadDeAnimacion = 0;
@@ -56,7 +60,7 @@ public class BallMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        
     }
 
 
@@ -74,12 +78,6 @@ public class BallMove : MonoBehaviour
                 LeanTween.scale(numeroDeVidas.rectTransform, escalaOriginalNumeroDeVidas, velocidadDeAnimacion)
                     .setEase(curva);
             });
-
-
-           
-
-            
-
 
             if (lives <= 2)
             {
@@ -123,25 +121,22 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             Destroy(collision.gameObject);
-            
+            vidasOBS--;
             numeroDeObstaculosDestruidos++;
 
             if (numeroDeObstaculosDestruidos >= 20)
             {
 
                 SceneManager.LoadScene("UI_VICTORIA");
+
                 numeroDeVidas.gameObject.SetActive(false);
                     corazones.SetActive(false);
                     corazonMedio.SetActive(false);
                     corazonNegro.SetActive(false);
+               
             }
+           
         }
-
-        
-        
-
-
-
-
+       
     }
 }
