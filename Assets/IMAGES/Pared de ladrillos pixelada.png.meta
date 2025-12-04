@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7141ea5b11e166140b62524603262c06
+guid: 69d53bc71b095c04c9100c266814561a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3415491706647629468
-    second: "Bot\xF3n de gradiente rojo a verde_0"
+      213: -6963985161968248982
+    second: Pared de ladrillos pixelada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xF3n de gradiente rojo a verde_0"
+      name: Pared de ladrillos pixelada_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 0
         y: 0
-        width: 1515
+        width: 1024
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 461b9fb836cb990d0800000000000000
-      internalID: -3415491706647629468
+      spriteID: a679ac75464fa5f90800000000000000
+      internalID: -6963985161968248982
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Bot\xF3n de gradiente rojo a verde_0": -3415491706647629468
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,8 +8,9 @@ public class BallMove : MonoBehaviour
     public GameObject player, ball, corazones, corazonMedio, corazonNegro;
 
     public float vidasOBS = 1;
-    
 
+    public float puntuacion = 0;
+    [SerializeField] TextMeshProUGUI numeroDePuntos;
 
 
     [SerializeField] public LeanTweenType curva;
@@ -38,6 +39,7 @@ public class BallMove : MonoBehaviour
     void Start()
     {
         numeroDeVidas.text = lives.ToString();
+        numeroDePuntos.text = puntuacion.ToString();
 
         corazonMedio.SetActive(false);
         corazonNegro.SetActive(false);
@@ -70,7 +72,7 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             lives--;
-
+           
             numeroDeVidas.text = lives.ToString();
 
             LeanTween.scale(numeroDeVidas.rectTransform, escalaNumeroDeVidas, velocidadDeAnimacion).setEase(curva).setOnComplete(() =>
@@ -121,6 +123,11 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             Destroy(collision.gameObject);
+            puntuacion = puntuacion + 100;
+            numeroDePuntos.text = puntuacion.ToString();
+
+
+
             vidasOBS--;
             numeroDeObstaculosDestruidos++;
 
