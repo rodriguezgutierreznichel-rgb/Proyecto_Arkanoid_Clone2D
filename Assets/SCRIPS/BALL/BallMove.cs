@@ -72,7 +72,8 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
             lives--;
-           
+            ball.transform.position = startPositionBall;
+            player.transform.position = startPositionPlayer;
             numeroDeVidas.text = lives.ToString();
 
             LeanTween.scale(numeroDeVidas.rectTransform, escalaNumeroDeVidas, velocidadDeAnimacion).setEase(curva).setOnComplete(() =>
@@ -105,8 +106,7 @@ public class BallMove : MonoBehaviour
                 });
             }
 
-            ball.transform.position = startPositionBall;
-                player.transform.position = startPositionPlayer;
+            
             
             if (lives <= 0)
             {
@@ -123,11 +123,12 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
             Destroy(collision.gameObject);
-            puntuacion = puntuacion + 100;
+
+           
+
+           
+
             numeroDePuntos.text = puntuacion.ToString();
-
-
-
             vidasOBS--;
             numeroDeObstaculosDestruidos++;
 
