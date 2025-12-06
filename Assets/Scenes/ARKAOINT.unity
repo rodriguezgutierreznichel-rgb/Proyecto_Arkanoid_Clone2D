@@ -368,37 +368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea6b3534f5144249bb964b2158bf052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &65790344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 65790345}
-  m_Layer: 0
-  m_Name: MoverMensajes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &65790345
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65790344}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.72612, y: -64.33191, z: 0.14381313}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1040487695}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82224298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,19 +1323,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 359416148}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BotonVictoria, Assembly-CSharp
-        m_MethodName: ReintentarJuego
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &359416148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,19 +1820,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 449922090}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BotonDerrota, Assembly-CSharp
-        m_MethodName: ReintentarJuego
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &449922090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2508,6 +2453,7 @@ Transform:
   - {fileID: 769600709}
   - {fileID: 886474984}
   - {fileID: 1686205567}
+  - {fileID: 1775683135}
   m_Father: {fileID: 1040487695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &591103032
@@ -2981,6 +2927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 722947359}
+  - component: {fileID: 722947360}
   m_Layer: 0
   m_Name: TEXT MACHINE
   m_TagString: Untagged
@@ -3000,10 +2947,24 @@ Transform:
   m_LocalPosition: {x: -321.72803, y: -350.53583, z: -8.800735}
   m_LocalScale: {x: 4.549763, y: 4.549763, z: 4.549763}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 786736853}
+  m_Children: []
   m_Father: {fileID: 1446896574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722947360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722947358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c8b57451794064da91abdf1d4780ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tituloDelJuego: {fileID: 462354348}
+  botonEmpezar: {fileID: 605843233}
+  botonSalir: {fileID: 226587040}
 --- !u!1001 &730557156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3126,6 +3087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752874517}
+  - component: {fileID: 752874518}
   m_Layer: 0
   m_Name: ANIMACIONES
   m_TagString: Untagged
@@ -3148,6 +3110,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 886995088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &752874518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752874516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f47d32ae46ebc243b2c0b66cc3c6895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tituloPerder: {fileID: 1635514427}
+  botonReintentar: {fileID: 449922087}
+  botonSalir: {fileID: 992564556}
+  curva: 23
+  velocidadDeAnimacion: 1
+  newPositionText: {x: 0.6, y: 0.6}
+  newPositionButton: {x: 0.5, y: 0.5}
 --- !u!1 &769600708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,37 +3305,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6870395579110376450, guid: 521cc46da78fcbb4dbf84de8cb4e6df2, type: 3}
   m_PrefabInstance: {fileID: 780219024}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &786736851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 786736853}
-  m_Layer: 0
-  m_Name: TEXTS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &786736853
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786736851}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -141.69005, y: -42.18174, z: 1.9761412}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 722947359}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &799487905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3461,7 +3411,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 920158863}
-  - {fileID: 1775683135}
   m_Father: {fileID: 1040487695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &858926903
@@ -3807,8 +3756,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 897064130}
+  - component: {fileID: 897064131}
   m_Layer: 0
-  m_Name: TEXTS
+  m_Name: TEXT MACHINE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3829,6 +3779,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 946391622}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &897064131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897064129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6bac54642d07c4798208dd5179edb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tituloDeVictoria: {fileID: 13185791}
+  botonReintentar: {fileID: 595419491}
+  botonSalir: {fileID: 1673445826}
 --- !u!1 &920158862
 GameObject:
   m_ObjectHideFlags: 0
@@ -4045,6 +4010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 959421100}
+  - component: {fileID: 959421101}
   m_Layer: 0
   m_Name: ANIMACIONES
   m_TagString: Untagged
@@ -4067,6 +4033,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 946391622}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &959421101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959421099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c102f3585199cf4e8c72b1e01c3d9d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tituloVictoria: {fileID: 13185791}
+  botonReintentar: {fileID: 359416145}
+  botonSalir: {fileID: 1290978063}
+  curva: 23
+  velocidadDeAnimacion: 1
+  newPositionText: {x: 0.6, y: 0.6}
+  newPositionButton: {x: 0.5, y: 0.5}
 --- !u!1 &970183209
 GameObject:
   m_ObjectHideFlags: 0
@@ -4096,6 +4081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91aaf35af87fda54abba8778a9fee1cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManagerScript: {fileID: 0}
   ui_Inicio: {fileID: 1446896570}
   ui_Victoria: {fileID: 946391618}
   ui_Derrota: {fileID: 886995084}
@@ -4305,9 +4291,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BotonDerrota, Assembly-CSharp
-        m_MethodName: SalirDelJuego
+      - m_Target: {fileID: 970183210}
+        m_TargetAssemblyTypeName: StateMachine, Assembly-CSharp
+        m_MethodName: Inicio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4430,7 +4416,6 @@ Transform:
   - {fileID: 858926902}
   - {fileID: 1886479337}
   - {fileID: 517008862}
-  - {fileID: 65790345}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071650482
@@ -5135,19 +5120,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1290978066}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BotonVictoria, Assembly-CSharp
-        m_MethodName: SalirDelJuego
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1290978066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5580,6 +5553,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1647651585}
     - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: ui_Game
+      value: 
+      objectReference: {fileID: 1040487694}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
       propertyPath: livesObs
       value: 4
       objectReference: {fileID: 0}
@@ -5596,6 +5573,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: ui_Derrota
+      value: 
+      objectReference: {fileID: 886995084}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: ui_Victoria
+      value: 
+      objectReference: {fileID: 946391618}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
       propertyPath: corazonMedio
       value: 
       objectReference: {fileID: 373245586}
@@ -5603,6 +5588,10 @@ PrefabInstance:
       propertyPath: corazonNegro
       value: 
       objectReference: {fileID: 799487905}
+    - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
+      propertyPath: stateMachine
+      value: 
+      objectReference: {fileID: 970183210}
     - target: {fileID: 9033929123938489135, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
       propertyPath: numeroDeVidas
       value: 
@@ -7525,11 +7514,11 @@ Transform:
   m_GameObject: {fileID: 1775683134}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -382.32217, y: -15.899306, z: -0.6529377}
+  m_LocalPosition: {x: 32.36212, y: 10.299446, z: -1.0180151}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 858926902}
+  m_Father: {fileID: 584760292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1775683136
 MonoBehaviour:
@@ -8496,8 +8485,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043323789}
+  - component: {fileID: 2043323790}
   m_Layer: 0
-  m_Name: TEXTS
+  m_Name: TEXT MACHINE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8518,6 +8508,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 886995088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2043323790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043323788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6c40e4e2001ca40ad5818f959f699d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tituloDerrota: {fileID: 1635514427}
+  botonReintentar: {fileID: 1569479940}
+  botonSalir: {fileID: 1512320700}
 --- !u!1001 &2051747117
 PrefabInstance:
   m_ObjectHideFlags: 0

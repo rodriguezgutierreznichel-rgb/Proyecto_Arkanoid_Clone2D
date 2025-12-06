@@ -1,8 +1,14 @@
+using TMPro;
 using UnityEngine;
 
 public class StateMachine : MonoBehaviour
 {
     private Estados estadoActual;
+
+    public BallMove gameManagerScript;
+
+
+
 
 
     public GameObject ui_Inicio, ui_Victoria, ui_Derrota, ui_Game;
@@ -41,5 +47,20 @@ public class StateMachine : MonoBehaviour
     public void IniciarJuego()
     {
         CambiarEstado(new EstadoJuego());
+    }
+
+    public void GanarPartida()
+    {
+        CambiarEstado(new EstadoVictoria());
+    }
+
+    public void PerderPartida()
+    {
+        CambiarEstado(new EstadoDerrota());
+    }
+
+    public void Reintentar()
+    {
+        
     }
 }

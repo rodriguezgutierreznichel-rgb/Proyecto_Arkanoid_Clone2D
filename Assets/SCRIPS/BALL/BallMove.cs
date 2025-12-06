@@ -1,11 +1,15 @@
+using TMPro;
+using UnityEditor.Localization.Plugins.XLIFF.V20;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 public class BallMove : MonoBehaviour
 {
+    public StateMachine stateMachine;
+
     public TextMeshProUGUI numeroDeVidas;
 
     public GameObject player, ball, corazones, corazonMedio, corazonNegro;
+    
 
     public float vidasOBS = 1;
 
@@ -111,6 +115,7 @@ public class BallMove : MonoBehaviour
             if (lives <= 0)
             {
                 SceneManager.LoadScene("UI_DERROTA");
+
                 numeroDeVidas.gameObject.SetActive(false);
                 corazones.SetActive(false);
                 corazonMedio.SetActive(false);
@@ -122,29 +127,27 @@ public class BallMove : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Obstaculo"))
         {
-            Destroy(collision.gameObject);
-
            
 
            
-
-            numeroDePuntos.text = puntuacion.ToString();
             vidasOBS--;
             numeroDeObstaculosDestruidos++;
 
-            if (numeroDeObstaculosDestruidos >= 20)
+            if (numeroDeObstaculosDestruidos >= 35)
             {
 
                 SceneManager.LoadScene("UI_VICTORIA");
 
                 numeroDeVidas.gameObject.SetActive(false);
-                    corazones.SetActive(false);
-                    corazonMedio.SetActive(false);
-                    corazonNegro.SetActive(false);
+                corazones.SetActive(false);
+                corazonMedio.SetActive(false);
+                corazonNegro.SetActive(false);
                
             }
            
         }
        
     }
+
+
 }
