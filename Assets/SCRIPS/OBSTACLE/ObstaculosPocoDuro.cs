@@ -3,9 +3,7 @@ using UnityEngine;
 
 public class ObstaculosPocoDuro : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI numeroDePuntos;
-    public int points = 0;
-    public int puntos = 200;
+   
 
 
     public int vidas = 2;
@@ -31,7 +29,7 @@ public class ObstaculosPocoDuro : MonoBehaviour
             if (vidas == 0)
             {
                 Destroy(gameObject);
-                Puntos.instancia.SumarPuntos(puntos); // Referencia segura y sin deprecated
+                Puntos.instancia.SumarPuntos(200);
             }
         }
     }

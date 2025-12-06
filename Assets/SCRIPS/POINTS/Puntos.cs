@@ -2,34 +2,24 @@ using UnityEngine;
 using TMPro;
 public class Puntos : MonoBehaviour
 {
-   
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public static Puntos instancia; // Referencia global
-    public static int points = 0;   // Variable global
+    public static Puntos instancia;
+    public static int points = 0;
     public TextMeshProUGUI numeroDePuntos;
 
     void Awake()
     {
-        instancia = this;
-        points = 0; // Reiniciamos los puntos cada vez que se carga la escena
-        numeroDePuntos.text = points.ToString();
+        if (instancia == null)
+        {
+            instancia = this;
+            
+        }
+            points = 0; 
+            numeroDePuntos.text = points.ToString();
     }
 
-    public void SumarPuntos(int p)
+    public void SumarPuntos(int puntos)
     {
-        points += p;
+        points = points + puntos;
         numeroDePuntos.text = points.ToString();
     }
 }

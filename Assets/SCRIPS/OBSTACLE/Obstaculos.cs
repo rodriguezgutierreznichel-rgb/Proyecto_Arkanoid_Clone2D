@@ -3,9 +3,7 @@ using UnityEngine;
 
 public class Obstaculos : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI numeroDePuntos;
-    public int points = 0;
-    public int puntos = 100;
+   
 
     public int vidas = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +22,7 @@ public class Obstaculos : MonoBehaviour
         if (collision.gameObject.CompareTag("Pelota"))
         {
                 Destroy(gameObject);
-            Puntos.instancia.SumarPuntos(puntos); // Referencia segura y sin deprecated
+            Puntos.instancia.SumarPuntos(100);
         }
     }
 }

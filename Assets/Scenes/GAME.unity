@@ -568,6 +568,143 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
   m_PrefabInstance: {fileID: 797951524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &358509731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358509732}
+  - component: {fileID: 358509734}
+  - component: {fileID: 358509733}
+  m_Layer: 5
+  m_Name: Mensaje TEXT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &358509732
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918095299}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1097.54, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &358509733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: -Muevete y destruye todos los obstaculos. Y no permitas que la bola caiga
+    a la DEAP ZONE
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &358509734
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358509731}
+  m_CullTransparentMesh: 1
 --- !u!1 &370082312
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,6 +737,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 107342020}
+  - {fileID: 918095299}
   m_Father: {fileID: 890851472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1058,9 +1196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 2
 --- !u!4 &558102656 stripped
 Transform:
@@ -1174,19 +1309,6 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
---- !u!114 &558102666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384727512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306dc733d5d99794fbcb484235160638, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 1294657472}
 --- !u!4 &582808900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -1204,9 +1326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 2
 --- !u!4 &607676139 stripped
 Transform:
@@ -1957,6 +2076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890851472}
+  - component: {fileID: 890851473}
   m_Layer: 0
   m_Name: LIVES
   m_TagString: Untagged
@@ -1983,6 +2103,27 @@ Transform:
   - {fileID: 419138377}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &890851473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890851471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4e8be3e0a28a814591fe6bfd36b6ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroDeVidas: {fileID: 107342021}
+  corazones: {fileID: 1680925008}
+  corazonMedio: {fileID: 1387555270}
+  corazonNegro: {fileID: 2014869358}
+  curva: 0
+  velocidadDeAnimacion: 0.6
+  escalaCorazon: {x: 0.8, y: 0.8}
+  escalaNumeroDeVidas: {x: 2.3, y: 2.3}
+  escalaOriginalNumeroDeVidas: {x: 2.5, y: 2.5}
 --- !u!4 &894771170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -2000,9 +2141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 4
 --- !u!1 &896990221 stripped
 GameObject:
@@ -2021,15 +2159,108 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 100
   vidas: 1
 --- !u!1 &900083058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
   m_PrefabInstance: {fileID: 2088149352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &918095298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918095299}
+  - component: {fileID: 918095302}
+  - component: {fileID: 918095301}
+  - component: {fileID: 918095300}
+  m_Layer: 5
+  m_Name: MENSAJITO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &918095299
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918095298}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 358509732}
+  m_Father: {fileID: 370082313}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: -73}
+  m_SizeDelta: {x: 1116.3, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &918095300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918095298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81214f133cd4e5e4e9774a1f6ecf5c74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensajito: {fileID: 918095298}
+  velocidadDeAnimacion: 1
+  newPositionY: -488
+  oldPositionY: -629
+  curva: 0
+  time: 0
+  time2: 0
+--- !u!114 &918095301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918095298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8235294}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &918095302
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918095298}
+  m_CullTransparentMesh: 1
 --- !u!1 &940068339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -2047,9 +2278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 100
   vidas: 1
 --- !u!1001 &956656768
 PrefabInstance:
@@ -2377,9 +2605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 3
 --- !u!1001 &1039977591
 PrefabInstance:
@@ -2474,9 +2699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 3
 --- !u!1001 &1126146598
 PrefabInstance:
@@ -2586,9 +2808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 3
 --- !u!1 &1239021954
 GameObject:
@@ -2845,9 +3064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 4
 --- !u!1 &1314271453
 GameObject:
@@ -2858,6 +3074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314271454}
+  - component: {fileID: 1314271455}
   m_Layer: 0
   m_Name: PUNTUACIONES
   m_TagString: Untagged
@@ -2881,6 +3098,19 @@ Transform:
   - {fileID: 1239021955}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1314271455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314271453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306dc733d5d99794fbcb484235160638, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numeroDePuntos: {fileID: 1294657472}
 --- !u!4 &1326842677 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -2898,9 +3128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 2
 --- !u!1 &1371066903 stripped
 GameObject:
@@ -3111,9 +3338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 3
 --- !u!1001 &1460954326
 PrefabInstance:
@@ -3208,9 +3432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 100
   vidas: 1
 --- !u!4 &1600865455 stripped
 Transform:
@@ -3229,9 +3450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 4
 --- !u!1 &1671635157
 GameObject:
@@ -3412,9 +3630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 4
 --- !u!1 &1720405945 stripped
 GameObject:
@@ -3433,9 +3648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 100
   vidas: 1
 --- !u!1001 &1737735779
 PrefabInstance:
@@ -3713,9 +3925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 2
 --- !u!1001 &1885257331
 PrefabInstance:
@@ -3810,9 +4019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 100
   vidas: 1
 --- !u!1 &1961656520 stripped
 GameObject:
@@ -3831,9 +4037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 2
 --- !u!1 &2002990772
 GameObject:
@@ -4141,9 +4344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 3
 --- !u!4 &446355317350260904 stripped
 Transform:
@@ -4162,9 +4362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDePuntos: {fileID: 0}
-  points: 0
-  puntos: 200
   vidas: 4
 --- !u!1001 &2525099582344992239
 PrefabInstance:
@@ -4349,9 +4546,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 842761873768236619, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 558102661}
-    - targetCorrespondingSourceObject: {fileID: 842761873768236619, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 558102666}
   m_SourcePrefab: {fileID: 100100000, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
 --- !u!1001 &2815314557227979459
 PrefabInstance:
