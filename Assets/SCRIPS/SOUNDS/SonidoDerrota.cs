@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class SonidoInicial : MonoBehaviour
+public class SonidoDerrota : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip sonidoDeAmbiente;

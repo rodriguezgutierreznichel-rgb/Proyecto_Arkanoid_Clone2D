@@ -15,6 +15,11 @@ MonoBehaviour:
   m_GroupName: Localization-Assets-Shared
   m_GUID: c8acddb21f5648b4794eec85bb6f8000
   m_SerializeEntries:
+  - m_GUID: 003b411712d68c841bb512a87e471ebd
+    m_Address: Assets/Localization/MENSAJITOS Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 580515acfedfb2d4592de4b4fc6c5ca1
     m_Address: Assets/Localization/DERROTA Shared Data.asset
     m_ReadOnly: 1

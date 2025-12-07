@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (United States) (en-US)
   m_GUID: a0a5b4e24234b8145bfdc103887f4fda
   m_SerializeEntries:
+  - m_GUID: 1a1510b52a9e34f4e802e3de93cc96e8
+    m_Address: MENSAJITOS_en-US
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-US
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3429d64ab6b94f84da08fbea9aa60db7
     m_Address: VICTORIA_en-US
     m_ReadOnly: 1

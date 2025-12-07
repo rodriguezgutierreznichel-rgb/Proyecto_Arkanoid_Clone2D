@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class SonidoInicial : MonoBehaviour
+public class SonidoVictoria : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip sonidoDeAmbiente;

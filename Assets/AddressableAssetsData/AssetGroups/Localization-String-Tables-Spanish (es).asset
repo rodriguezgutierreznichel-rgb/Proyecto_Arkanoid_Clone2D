@@ -27,6 +27,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae554a64e69cd1445962d823e1627265
+    m_Address: MENSAJITOS_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ce7776ebce4839045b3575cf332558bf
     m_Address: VICTORIA_es
     m_ReadOnly: 1

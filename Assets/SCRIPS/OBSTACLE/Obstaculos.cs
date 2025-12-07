@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Obstaculos : MonoBehaviour
 {
-   
 
     public int vidas = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,8 +20,10 @@ public class Obstaculos : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pelota"))
         {
-                Destroy(gameObject);
+          
             Puntos.instancia.SumarPuntos(100);
+            Destroy(gameObject);
+
         }
     }
 }
