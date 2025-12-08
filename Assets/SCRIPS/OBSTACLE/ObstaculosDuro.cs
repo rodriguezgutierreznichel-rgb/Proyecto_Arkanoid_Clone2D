@@ -5,8 +5,9 @@ public class ObstaculosDuro : MonoBehaviour
 {
    
 
-    public int vidas = 4;
-
+    public int vidas = 1;
+    public int puntos = 400;
+    private int vidaPerdida = 1;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,13 +24,16 @@ public class ObstaculosDuro : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pelota"))
         {
+
             vidas--;
 
             if (vidas == 0)
             {
+                Puntos.instancia.SumarPuntos(puntos);
+                Vidas.instancia.PerderVidasOBS(vidaPerdida);
                 Destroy(gameObject);
-                Puntos.instancia.SumarPuntos(400);
             }
+
         }
     }
 }

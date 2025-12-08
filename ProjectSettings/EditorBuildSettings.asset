@@ -17,6 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI_VICTORIA.unity
     guid: c85d57dc7ca2b564cbf788642b662322
+  - enabled: 1
+    path: Assets/Scenes/GAME 2/UI_INICIO 2.unity
+    guid: e5575bb2f58aead409f4031549e7cd3e
+  - enabled: 1
+    path: Assets/Scenes/GAME 2/GAME 2.unity
+    guid: 237beecc0cc691d49ba9b6e832e53e90
+  - enabled: 1
+    path: Assets/Scenes/GAME 2/UI_VICTORIA 2.unity
+    guid: ee70dba9efca7ac47991ee46b34d8520
+  - enabled: 1
+    path: Assets/Scenes/GAME 2/UI_DERROTA 2.unity
+    guid: 427a0d750524bbe4588f0140c79690d9
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 348a5a02b89e267469fb3da4ab3f64c2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

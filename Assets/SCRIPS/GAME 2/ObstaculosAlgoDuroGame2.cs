@@ -1,14 +1,12 @@
 using TMPro;
 using UnityEngine;
 
-public class ObstaculosPocoDuro : MonoBehaviour
+public class ObstaculosAlgoDuroGame2 : MonoBehaviour
 {
-   
-
 
     public int vidas = 1;
-    public int puntos = 200;
     private int vidaPerdida = 1;
+    public int puntos = 300;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,20 +18,14 @@ public class ObstaculosPocoDuro : MonoBehaviour
     {
         
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Pelota"))
         {
-
-            vidas--;
-
-            if (vidas == 0)
-            {
-                Puntos.instancia.SumarPuntos(puntos);
-                Vidas.instancia.PerderVidasOBS(vidaPerdida);
-                Destroy(gameObject);
-            }
+          
+            Puntos2.instancia.SumarPuntos(puntos);
+            
+            gameObject.SetActive(false);
 
         }
     }

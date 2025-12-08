@@ -2,7 +2,7 @@ using TMPro;
 using UnityEditor.Localization.Plugins.XLIFF.V20;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class BallMove : MonoBehaviour
+public class BallMove2 : MonoBehaviour
 {
     public GameObject player, ball;
 
@@ -46,7 +46,7 @@ public class BallMove : MonoBehaviour
         if (collision.gameObject.CompareTag("DeadZone"))
         {
 
-            Vidas.instancia.PerderVidas(1);
+            Vidas2.instancia.PerderVidas(1);
             
             ball.transform.position = startPositionBall;
             player.transform.position = startPositionPlayer;

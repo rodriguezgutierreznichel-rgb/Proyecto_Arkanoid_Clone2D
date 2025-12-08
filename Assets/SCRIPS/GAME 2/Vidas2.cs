@@ -2,10 +2,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Vidas : MonoBehaviour
+public class Vidas2 : MonoBehaviour
 {
-    public static Vidas instancia;
-    public static int vidas = 3;
+    public static Vidas2 instancia;
+    public static int vidas2 = 3;
     public TextMeshProUGUI numeroDeVidas;
     public GameObject corazones, corazonMedio, corazonNegro;
 
@@ -26,16 +26,16 @@ public class Vidas : MonoBehaviour
             instancia = this;
 
         }
-        vidas = 3;
-        numeroDeVidas.text = vidas.ToString();
+        vidas2 = 3;
+        numeroDeVidas.text = vidas2.ToString();
         corazonMedio.SetActive(false);
         corazonNegro.SetActive(false);
     }
 
     public void PerderVidas(int lives)
     {
-        vidas = vidas - lives;
-        numeroDeVidas.text = vidas.ToString();
+        vidas2 = vidas2 - lives;
+        numeroDeVidas.text = vidas2.ToString();
 
         LeanTween.scale(numeroDeVidas.rectTransform, escalaNumeroDeVidas, velocidadDeAnimacion).setEase(curva).setOnComplete(() =>
         {
@@ -43,7 +43,7 @@ public class Vidas : MonoBehaviour
                 .setEase(curva);
         });
 
-        if (vidas <= 2)
+        if (vidas2 <= 2)
         {
             corazones.SetActive(false);
             corazonMedio.SetActive(true);
@@ -55,7 +55,7 @@ public class Vidas : MonoBehaviour
             });
         }
 
-        if (vidas <= 1)
+        if (vidas2 <= 1)
         {
             corazonMedio.SetActive(false);
             corazonNegro.SetActive(true);
@@ -69,9 +69,9 @@ public class Vidas : MonoBehaviour
 
 
 
-        if (vidas <= 0)
+        if (vidas2 <= 0)
         {
-            SceneManager.LoadScene("UI_DERROTA");
+            SceneManager.LoadScene("UI_DERROTA 2");
 
             numeroDeVidas.gameObject.SetActive(false);
             corazones.SetActive(false);
@@ -81,17 +81,9 @@ public class Vidas : MonoBehaviour
 
         }
 
-        
+
 
     }
 
-    public void PerderVidasOBS(int livesOBS)
-    {
-        numeroDeObstaculosDestruidos = numeroDeObstaculosDestruidos + livesOBS;
-
-        if (numeroDeObstaculosDestruidos >= numeroTotalDeVidasDeObstaculos)
-        {
-            SceneManager.LoadScene("UI_VICTORIA");
-        }
-    }
+   
 }
