@@ -1221,7 +1221,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 457442457}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 2
+  puntos: 200
 --- !u!4 &558102656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8136039702402429087, guid: db7b68af3655bcc44902648617ac55ad, type: 3}
@@ -1251,7 +1256,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 776677ab3818fb249adaca05f4e04545, type: 2}
+  - {fileID: 2100000, guid: ff16fb4a90fe84bec9c8f29698aa0eed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1351,7 +1356,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 424674602}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 2
+  puntos: 200
 --- !u!4 &607676139 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 889040207521126777, guid: 31e52f78ca6ad994fa92b2e84e7db18f, type: 3}
@@ -1570,7 +1580,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 230.378, y: 66.095}
-  m_SizeDelta: {x: 43.007, y: 35.27}
+  m_SizeDelta: {x: 101.11, y: 35.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642678855
 MonoBehaviour:
@@ -1625,9 +1635,9 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2312,6 +2322,7 @@ MonoBehaviour:
   corazones: {fileID: 1680925008}
   corazonMedio: {fileID: 1387555270}
   corazonNegro: {fileID: 2014869358}
+  numeroDeObstaculosDestruidos: 0
   curva: 0
   velocidadDeAnimacion: 0.6
   escalaCorazon: {x: 0.8, y: 0.8}
@@ -2334,7 +2345,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 331753371}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 4
+  puntos: 400
 --- !u!1 &896990221 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -2352,7 +2368,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 896990221}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
+  puntos: 100
 --- !u!1 &900083058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -2471,7 +2492,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 940068339}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
+  puntos: 100
 --- !u!1001 &956656768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2974,7 +3000,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 661661391}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 3
+  puntos: 300
 --- !u!1001 &1039977591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3076,7 +3107,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1103295016}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 3
+  puntos: 300
 --- !u!1001 &1126146598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3193,7 +3229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1230476760}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 3
+  puntos: 300
 --- !u!1 &1239021954
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,7 +3490,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 900083058}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 4
+  puntos: 400
 --- !u!1 &1314271453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3513,7 +3559,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 242299680}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 2
+  puntos: 200
 --- !u!1 &1371066903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -3723,7 +3774,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1456935902}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 3
+  puntos: 300
 --- !u!1001 &1460954326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3825,7 +3881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 79834197}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
+  puntos: 100
 --- !u!4 &1600865455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -3843,7 +3904,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 818901084}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 4
+  puntos: 400
 --- !u!1 &1671635157
 GameObject:
   m_ObjectHideFlags: 0
@@ -4023,7 +4089,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1716164575}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 4
+  puntos: 400
 --- !u!1 &1720405945 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -4041,7 +4112,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1720405945}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
+  puntos: 100
 --- !u!1 &1722682390
 GameObject:
   m_ObjectHideFlags: 0
@@ -4379,7 +4455,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1829548586}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 2
+  puntos: 200
 --- !u!1001 &1885257331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4481,7 +4562,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5c1891199f98842ac0d4d1098f4a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1934251646}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
+  puntos: 100
 --- !u!1 &1961656520 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8851943670327839970, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -4499,7 +4585,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bee6ae3fea3d748b74a0c73bb6b054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1961656520}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 2
+  puntos: 200
 --- !u!1 &2002990772
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,7 +4913,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0cf432a828a38044ba6da07423b5daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1371066903}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 3
+  puntos: 300
 --- !u!4 &446355317350260904 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
@@ -4840,7 +4936,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0fa784f7e0081409e6511e704f3c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 2124473866}
+  velocidadDeAnimacion: 0.5
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 4
+  puntos: 400
 --- !u!1001 &2525099582344992239
 PrefabInstance:
   m_ObjectHideFlags: 0

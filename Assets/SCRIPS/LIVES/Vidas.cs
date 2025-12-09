@@ -21,12 +21,16 @@ public class Vidas : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
-        if (instancia == null)
+        if (instancia != null && instancia != this)
         {
-            instancia = this;
-
+            Destroy(gameObject);
+            return;
         }
+
+        instancia = this;
+
         vidas = 3;
+        numeroDeObstaculosDestruidos = 0;
         numeroDeVidas.text = vidas.ToString();
         corazonMedio.SetActive(false);
         corazonNegro.SetActive(false);
@@ -87,10 +91,12 @@ public class Vidas : MonoBehaviour
 
     public void PerderVidasOBS(int livesOBS)
     {
-        numeroDeObstaculosDestruidos = numeroDeObstaculosDestruidos + livesOBS;
+        numeroDeObstaculosDestruidos += livesOBS;
+        Debug.Log("Obstáculos destruidos = " + numeroDeObstaculosDestruidos);
 
         if (numeroDeObstaculosDestruidos >= numeroTotalDeVidasDeObstaculos)
         {
+            Debug.Log("VICTORIA ACTIVADA");
             SceneManager.LoadScene("UI_VICTORIA");
         }
     }

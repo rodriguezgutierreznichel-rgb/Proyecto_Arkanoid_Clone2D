@@ -3,6 +3,13 @@ using UnityEngine;
 
 public class Obstaculos : MonoBehaviour
 {
+    [SerializeField]
+    LeanTweenType curva;
+
+    public GameObject obstaculo;
+    public float velocidadDeAnimacion = 0f;
+    public Vector3 newScale = new Vector3(0f, 0f, 0f);
+
 
     public int vidas = 1;
     public int puntos = 100;
@@ -22,10 +29,15 @@ public class Obstaculos : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pelota"))
         {
-          
+            LeanTween.scale(obstaculo, newScale, velocidadDeAnimacion)
+            .setEase(curva)
+            .setOnComplete(() =>
+            {
+                Destroy(obstaculo); 
+            });
             Puntos.instancia.SumarPuntos(puntos);
             Vidas.instancia.PerderVidasOBS(vidaPerdida);
-            Destroy(gameObject);
+            
 
         }
     }
