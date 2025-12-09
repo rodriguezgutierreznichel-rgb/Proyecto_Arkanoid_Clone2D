@@ -19,24 +19,39 @@ public class BallMove2 : MonoBehaviour
     Vector2 startPositionBall;
     Vector2 startPositionPlayer;
 
+    bool activo = false;
     void Start()
     {
        
         startPositionBall = ball.transform.position;
         startPositionPlayer = player.transform.position;
 
-        directionPelota.x = Random.Range(-1f, 1f);
+        directionPelota.x = 0;
 
-        directionPelota.y = 1;
+        directionPelota.y = 0;
 
         fisicaPelota.AddForce(directionPelota * velocidadPelota);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        // Solo ejecuta Empezar si espacio es presionado y la bola NO está activa
+        if (Input.GetKeyDown(KeyCode.Space) && !activo)
+        {
+            Empezar();
+            activo = true; // Esto evita que se vuelva a ejecutar
+        }
+    }
+
+    void Empezar()
+    {
+        directionPelota.x = Random.Range(-1f, 1f);
+
+        directionPelota.y = 1;
+
+        fisicaPelota.AddForce(directionPelota * velocidadPelota);
     }
 
 

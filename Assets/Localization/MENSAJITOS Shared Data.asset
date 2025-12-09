@@ -21,8 +21,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 24619966464
-    m_Key: -Muevete y destruye todos los obstaculos. Y no permitas que la bola caiga
-      a la DEAP ZONE
+    m_Key: -Pulsa el boton "ESPACIO" para empezar. Muevete y destruye todos los obstaculos.
+      Y no permitas que la bola caiga a la DEAP ZONE
     m_Metadata:
       m_Items: []
   - m_Id: 27136548864

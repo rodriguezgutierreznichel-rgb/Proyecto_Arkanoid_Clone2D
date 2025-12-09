@@ -649,8 +649,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -Muevete y destruye todos los obstaculos. Y no permitas que la bola caiga
-    a la DEAP ZONE
+  m_text: -Pulsa el boton "ESPACIO" para empezar. Muevete y destruye todos los obstaculos.
+    Y no permitas que la bola caiga a la DEAP ZONE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2067,11 +2067,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2372,6 +2372,7 @@ MonoBehaviour:
   obstaculo: {fileID: 896990221}
   velocidadDeAnimacion: 0.5
   newScale: {x: 0, y: 0, z: 0}
+  originalScale: {x: 2, y: 0.5, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &900083058 stripped
@@ -2496,6 +2497,7 @@ MonoBehaviour:
   obstaculo: {fileID: 940068339}
   velocidadDeAnimacion: 0.5
   newScale: {x: 0, y: 0, z: 0}
+  originalScale: {x: 2, y: 0.5, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1001 &956656768
@@ -2604,11 +2606,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2921,11 +2923,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3802,11 +3804,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3885,6 +3887,7 @@ MonoBehaviour:
   obstaculo: {fileID: 79834197}
   velocidadDeAnimacion: 0.5
   newScale: {x: 0, y: 0, z: 0}
+  originalScale: {x: 2, y: 0.5, z: 0}
   vidas: 1
   puntos: 100
 --- !u!4 &1600865455 stripped
@@ -4116,6 +4119,7 @@ MonoBehaviour:
   obstaculo: {fileID: 1720405945}
   velocidadDeAnimacion: 0.5
   newScale: {x: 0, y: 0, z: 0}
+  originalScale: {x: 2, y: 0.5, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &1722682390
@@ -4566,6 +4570,7 @@ MonoBehaviour:
   obstaculo: {fileID: 1934251646}
   velocidadDeAnimacion: 0.5
   newScale: {x: 0, y: 0, z: 0}
+  originalScale: {x: 2, y: 0.5, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &1961656520 stripped
@@ -4745,11 +4750,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8803114008888273907, guid: 824224fdba72eb54c9c5c66fbf5d815e, type: 3}
       propertyPath: m_LocalPosition.x

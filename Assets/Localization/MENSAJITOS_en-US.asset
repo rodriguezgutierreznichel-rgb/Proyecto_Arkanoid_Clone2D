@@ -19,8 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 24619966464
-    m_Localized: Move and destroy all the obstacles. And don't let the ball fall
-      into the DEAP ZONE
+    m_Localized: Press the "SPACE" key to begin. Move and destroy all obstacles.
+      And don't let the ball fall into the DEAP ZONE.
     m_Metadata:
       m_Items: []
   - m_Id: 27136548864

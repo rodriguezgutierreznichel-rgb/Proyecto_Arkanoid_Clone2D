@@ -15,6 +15,6 @@ public class Texto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mensajito.text = LocalizationSettings.StringDatabase.GetLocalizedString("MENSAJITOS", "-Muevete y destruye todos los obstaculos. Y no permitas que la bola caiga a la DEAP ZONE");
+        mensajito.text = LocalizationSettings.StringDatabase.GetLocalizedString("MENSAJITOS", "-Pulsa el boton \"ESPACIO\" para empezar. Muevete y destruye todos los obstaculos. Y no permitas que la bola caiga a la DEAP ZONE");
     }
 }
