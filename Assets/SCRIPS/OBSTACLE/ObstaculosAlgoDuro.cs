@@ -48,7 +48,7 @@ public class ObstaculosAlgoDuro : MonoBehaviour
            });
 
                 Puntos.instancia.SumarPuntos(puntos);
-                Vidas.instancia.PerderVidasOBS(vidaPerdida);               
+                VidasOBS.instancia.PerderVidasOBS(vidaPerdida);               
             }
 
         }
