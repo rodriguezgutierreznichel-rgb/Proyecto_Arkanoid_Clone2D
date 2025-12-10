@@ -1,8 +1,10 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class Obstaculos : MonoBehaviour
 {
+    public GameObject efecto;
+
     [SerializeField]
     LeanTweenType curva;
 
@@ -11,6 +13,7 @@ public class Obstaculos : MonoBehaviour
     public Vector3 newScale = new Vector3(0f, 0f, 0f);
     public Vector3 originalScale = new Vector3(2f, 0.5f, 0f);
 
+   
 
     public int vidas = 1;
     public int puntos = 100;
@@ -20,6 +23,9 @@ public class Obstaculos : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+       
+
+
         escalaOriginal = obstaculo.transform.localScale;
         obstaculo.transform.localScale = escalaOriginal;
 
@@ -35,6 +41,8 @@ public class Obstaculos : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Pelota"))
         {
+           
+
             LeanTween.scale(obstaculo, newScale, velocidadDeAnimacion)
             .setEase(curva)
             .setOnComplete(() =>

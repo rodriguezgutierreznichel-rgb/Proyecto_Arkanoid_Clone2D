@@ -1482,6 +1482,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f62b8d8d40ea46b01ad7ed69fec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 457442457}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 200
 --- !u!4 &558102656 stripped
@@ -1637,6 +1641,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f62b8d8d40ea46b01ad7ed69fec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 424674602}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 200
 --- !u!4 &607676139 stripped
@@ -1879,7 +1887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00
+  m_text: 60
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2934,6 +2942,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7cd50c7780ed24ba71cc6437875103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 331753371}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 400
 --- !u!1 &896990221 stripped
@@ -2953,6 +2965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee4d1d059a159c4984cd27b1743d1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 896990221}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &900083058 stripped
@@ -3073,6 +3089,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee4d1d059a159c4984cd27b1743d1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 940068339}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &953407853
@@ -3751,6 +3771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559a6537130a0241b0307e4a8259c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 661661391}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 300
 --- !u!1001 &1039977591
@@ -3941,6 +3965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559a6537130a0241b0307e4a8259c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1103295016}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 300
 --- !u!1001 &1126146598
@@ -4233,6 +4261,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559a6537130a0241b0307e4a8259c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1230476760}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 300
 --- !u!1 &1239021954
@@ -4490,6 +4522,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7cd50c7780ed24ba71cc6437875103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 900083058}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 400
 --- !u!1 &1314271453
@@ -4642,6 +4678,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f62b8d8d40ea46b01ad7ed69fec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 242299680}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 200
 --- !u!1 &1371066903 stripped
@@ -4853,6 +4893,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559a6537130a0241b0307e4a8259c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1456935902}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 300
 --- !u!1001 &1460954326
@@ -5043,6 +5087,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee4d1d059a159c4984cd27b1743d1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 79834197}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 100
 --- !u!4 &1600865455 stripped
@@ -5062,6 +5110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7cd50c7780ed24ba71cc6437875103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 818901084}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 400
 --- !u!1 &1671635157
@@ -5243,6 +5295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7cd50c7780ed24ba71cc6437875103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1716164575}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 400
 --- !u!1 &1720405945 stripped
@@ -5262,6 +5318,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee4d1d059a159c4984cd27b1743d1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1720405945}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &1722682390
@@ -5775,6 +5835,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f62b8d8d40ea46b01ad7ed69fec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1829548586}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 200
 --- !u!1001 &1885257331
@@ -5878,6 +5942,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee4d1d059a159c4984cd27b1743d1bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1934251646}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 100
 --- !u!1 &1961656520 stripped
@@ -5897,6 +5965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837f62b8d8d40ea46b01ad7ed69fec95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1961656520}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 200
 --- !u!1 &1979675831
@@ -6658,6 +6730,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e559a6537130a0241b0307e4a8259c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 1371066903}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 300
 --- !u!1 &2142517931
@@ -6764,6 +6840,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7cd50c7780ed24ba71cc6437875103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curva: 0
+  obstaculo: {fileID: 2124473866}
+  velocidadDeAnimacion: 1
+  newScale: {x: 0, y: 0, z: 0}
   vidas: 1
   puntos: 400
 --- !u!1001 &2525099582344992239

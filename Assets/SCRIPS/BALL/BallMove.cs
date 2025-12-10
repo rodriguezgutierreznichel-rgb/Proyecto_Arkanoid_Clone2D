@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class BallMove : MonoBehaviour
 {
+   
+
     public GameObject player, ball;
 
     public Rigidbody2D fisicaPelota;
@@ -22,7 +24,9 @@ public class BallMove : MonoBehaviour
     bool activo = false;
     void Start()
     {
+
        
+
         startPositionBall = ball.transform.position;
         startPositionPlayer = player.transform.position;
 
