@@ -30,6 +30,10 @@ MonoBehaviour:
     m_Localized: REINTENTAR
     m_Metadata:
       m_Items: []
+  - m_Id: 4206279781244928
+    m_Localized: EXAMEN
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

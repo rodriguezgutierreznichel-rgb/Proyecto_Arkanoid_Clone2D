@@ -4,6 +4,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject[] obstaculos;
     public GameObject[] posiciones;
+    public GameObject[] capsula;
 
     public float tiempoDePartida = 10f;
     public float tiempo = 5;
@@ -17,6 +18,13 @@ public class GameController : MonoBehaviour
 
     bool isPlaying = false;
 
+    
+    float minTimeCapsula = 1;
+    float maxTimeCapsula = 100;
+    float numeroAleatorio;
+    public float TiempoEnPartidaCapsula = 0;
+    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,11 +37,15 @@ public class GameController : MonoBehaviour
         if (isPlaying)
         {
             tiempoObstacle -= Time.deltaTime;
+           
 
             if (tiempoObstacle <= 0f)
             {
                 DesactivarObstaculos(obstaculos);
                 DesactivarObstaculos(posiciones);
+                DesactivarObstaculos(capsula);
+                
+                
             }
 
             timer = timer + Time.deltaTime;
@@ -48,6 +60,9 @@ public class GameController : MonoBehaviour
             {
                 isPlaying = false;
             }
+
+           
+           
         }
     }
 
@@ -55,9 +70,13 @@ public class GameController : MonoBehaviour
     {
         DesactivarObstaculos(obstaculos);
         DesactivarObstaculos(posiciones);
+        
 
         nextNPC = Random.Range(minTime,maxTime);
+        numeroAleatorio = Random.Range(minTimeCapsula,maxTimeCapsula);
+        Debug.Log("el numero es " + numeroAleatorio);
         isPlaying = true;
+       
 
         timer = tiempoDePartida;
         GenerarTimerNPC();
@@ -75,15 +94,20 @@ public class GameController : MonoBehaviour
     {
         DesactivarObstaculos(obstaculos);
         DesactivarObstaculos(posiciones);
+       DesactivarObstaculos(capsula);
 
         GameObject personajes = SeleccionarPrefabs(obstaculos);
 
         GameObject spawn = SeleccionarPrefabs(posiciones);
 
+        GameObject capsulaMaligna = SeleccionarPrefabs(capsula);
+
         personajes.SetActive(true);
         spawn.SetActive(true);
+        capsulaMaligna.SetActive(true);
 
         tiempoObstacle = tiempo;
+        
 
         GenerarTimerNPC();
     }
@@ -106,4 +130,6 @@ public class GameController : MonoBehaviour
     {
         nextNPC = Random.Range(minTime, maxTime);
     }
+
+    
 }

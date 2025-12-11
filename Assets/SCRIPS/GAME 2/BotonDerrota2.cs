@@ -21,6 +21,6 @@ public class BotonDerrota2 : MonoBehaviour
     }
     public void SalirDelJuego()
     {
-        SceneManager.LoadScene("UI_INICIO 2");
+        SceneManager.LoadScene("UI_INICIO");
     }
 }
